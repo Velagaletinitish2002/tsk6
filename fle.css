@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+   margin: 0;
+   box-sizing: border-box; 
+}
+.parent{
+    background-color: antiquewhite;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5px;
+    
+
+
+}
+
+.child{
+    width: 400px;
+    background-color: bisque;
+    margin: 10px;
+    padding: 20px;
+    margin: 5px;
+}
+.one_top{
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
+    margin: 5px;
+    
+}
+.one_middle{
+    font-weight: 700;
+    margin: 5px;
+}
+.one_last{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+.fa-star{
+    color: green;
+}
+.text-dec{
+    text-decoration: none;
+}
